@@ -14,7 +14,7 @@ public class DatabaseConnection {
 
         String url = "jdbc:mysql://localhost:3306/food_delivery_db";
         try {
-            conn = DriverManager.getConnection(url,"root","james@5,7373");
+            conn = DriverManager.getConnection(url,"your admin username","your password");
         } catch (Exception e) {
             System.out.println(e.getMessage());
             System.out.println("Exception occurred while connecting to database");
