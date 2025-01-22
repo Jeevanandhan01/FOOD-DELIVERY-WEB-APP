@@ -8,6 +8,11 @@
         text-align: center;
         text-decoration: none;
     }
+    button
+    {
+        height: 50px;
+        margin-right: 20px;
+    }
     a
     {
         text-decoration: none;
@@ -16,11 +21,9 @@
 </style>
 <body>
     <div id="buttons">
-        <h1>JSP EXAMPLE</h1>
-        <button><a href="signup.jsp">Sign Up</a></button>
-        <br>
-        <br>
-        <button><a href="login.jsp">Login</a></button>
+        <h1>FOOD DELIVERY APP</h1>
+        <button><a href="signup.jsp">SIGN UP</a></button>
+        <button><a href="login.jsp">LOGIN</a></button>
     </div>
 </body>
 </html>
